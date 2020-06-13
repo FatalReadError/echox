@@ -55,3 +55,5 @@ Serving a favicon from `images/favicon.ico`
 ```go
 e.File("/favicon.ico", "images/favicon.ico")
 ```
+
+Important: `e.Static` does not currently respond to `HEAD` requests.
